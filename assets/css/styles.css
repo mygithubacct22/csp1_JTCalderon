@@ -1,0 +1,113 @@
+
+/** =================== MONTSERRAT FONT =================== **/
+/** Montserrat Regular **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../font/Montserrat-Regular.eot");
+    src: url("../font/Montserrat-Regular.eot?#iefix") format('embedded-opentype'),
+         url("../font/Montserrat-Regular.woff2") format("woff2"),
+         url("../font/Montserrat-Regular.woff") format("woff");
+}
+
+/**===================Custom CSS====================**/
+body{
+	height: 100%;
+	background:#18bc9c;
+    padding-bottom: 0px;
+}
+
+.main-container{
+    background: orange;
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.content-container{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 250px;
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.btn.custom{
+	padding: 10px;
+	width: 90px;
+	margin: 20px;
+}
+
+/*navbar*/
+.custom a {
+	color: #2c3e50;
+}
+
+.navbar {
+    background: #2c3e50;
+}
+
+.nav-link{
+	color:#ff8621;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #ff8621;
+}
+
+.navbar-brand{
+	color: #fff;
+}
+
+a:hover {
+    color: #ff8621;
+    text-decoration: underline;
+}
+
+
+/*box contents */
+.custom-col-box{
+    padding: 20px 50px 20px 50px;
+    color: #fff;
+}
+
+.custom-col-box img {
+    margin-bottom: 35px;
+}
+
+.custom-footer{
+    text-align: center;
+    margin: 20px 0;
+    color: #fff
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+}
+
+.nav-link.active{
+    color: #18bc9c;
+}
+.nav-link{
+    text-decoration: none;
+    position: relative;
+}
+.nav-link.active:after{
+      content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+

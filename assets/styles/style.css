@@ -1,0 +1,295 @@
+
+
+        body{
+           
+            padding: 0;
+            margin: 0;
+          
+        }
+
+        .main-container{
+
+        	width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+
+        }
+
+
+        .content-container{
+
+            position: absolute;
+            margin: auto;
+            padding-top: 80px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 200px;
+            color: black;
+            font-family: Orbitron:500;
+            font-style: black;
+
+        }
+
+        .overlay{
+
+         position: absolute;
+         min-height: 100%;
+         min-width: 100%;
+         left: 0;
+         top: 0;
+         background: rgba(244, 244, 244, 0.15);
+
+        }
+
+
+        .landpage {
+
+            background: url("../images/landpage2.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 745px;
+
+        }
+        .btn.custom{
+        	padding: 10px;
+        	width: 150px;
+        	margin: 20px;
+        }
+
+        /*navbar*/
+        .custom a {
+        	color: #2c3e50;
+        }
+
+        .navbar {
+            background: black;
+            font-family: 'Merriweather', serif;
+            
+        }
+
+        .nav-link{
+        	color: #fff;
+        }
+
+        #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+            background: #f4f4f4; color: #f97300;
+
+
+        }
+
+        a:hover {
+            color: #18bc9c;
+            text-decoration: underline;
+        }
+
+        .nav-link.active{
+            color: #ff8621;
+        }
+        .nav-link{
+            text-decoration: none;
+            position: relative;
+        }
+        .nav-link.active:after{
+          content: '';
+          width: 100%;
+          position: absolute;
+          left: 0;
+          bottom: 1px;
+          border-width: 0 0 1px;
+          border-style: solid;
+        }
+
+        .carousel {
+            margin-bottom: auto;
+        }
+
+
+        /*box contents */
+        .home {
+           
+            background: url("../images/box.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Merriweather', serif;
+             
+        }
+        .custom-col-box{
+            padding: 50px 50px 20px 50px;
+            color: black;
+            font-family: 'Merriweather', serif;
+
+
+        }
+        .custom-col-box img {
+            margin-bottom: 35px;
+        }
+        .custom-footer{
+            text-align: center;
+            margin: 2px 0;
+            color: white;
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            background-color: black;
+            font-family: 'Merriweather', serif;
+        }
+
+
+         .my-form {
+              overflow: hidden;
+               padding: 50px;
+                color: black;
+            }
+            .my-form .btn-default {
+                background-color: black;
+                color: #fff;
+                border-radius: 0;
+            }
+            .my-form .btn-default:hover {
+                background-color: #4498C6;
+                color: #fff;
+            }
+            .my-form .form-control {
+                border-radius: 5px;
+            }
+
+        .contact {
+            background: url("../images/box.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Merriweather', serif;
+            color: white;
+
+        }
+
+        .contactus {
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Merriweather', serif;
+        }
+
+        iframe {
+            width:100%;
+            height:85%;
+        }
+
+        .address {
+            padding-top: 10px;
+            color: black;
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+        }
+
+        .icons {
+            margin-left: 50px;
+            margin-bottom: 30px;
+            float: left;
+        }
+
+         #fb {
+            padding-right: 7px;
+        }
+
+         #ig {
+            padding-right: 7px;
+        }
+
+         #link {
+            padding-right: 7px;
+        }
+
+
+        .gallery {
+            background: url("../images/box.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .gallery h1{
+            color:black;
+             font-family: 'Merriweather', serif;
+               
+        }
+        .gallery img{
+             height: 15rem;
+             width: 100%;
+            padding-bottom: 40px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+
+        .about {
+            background: url("../images/box.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+            text-align: center;
+            font-family: 'Merriweather', serif;
+
+        }
+
+        #mission {
+            padding:70px; 
+            color: black;
+            font-weight: bold;
+        }
+
+        #vision {
+            padding:70px;
+            color: black;
+            font-weight: bold;
+        }
+
+
+        .about h1{
+            color:white;
+        }
+
+        .team{
+            margin: 4em 0;
+            position: relative;
+
+        }
+        .team h1{
+            color:#F97300;
+            font-family: 'Merriweather', serif;
+            margin: 2em;    
+        }
+        .team .item{
+            position: relative;
+            overflow: hidden;   
+        }
+        .team .des{
+            background: #F97300;
+            color: #fff;
+            text-align: center;
+            border-top-right-radius: 93%;
+            transition:.3s ease-in-out;
+            position: absolute;
+            width: 88%;
+            bottom: 24px;
+            font-family: 'Merriweather', serif;
+
+
+        }
+        .team .item:hover .des{
+            height: 100%;
+            background:#f973007d;
+            position: absolute;
+            width: 89%;
+            padding: 5em;
+            top: 0;
+            border-top-right-radius: 0;
+        }
+
